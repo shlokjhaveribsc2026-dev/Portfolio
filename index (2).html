@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shlok Jhaveri – Portfolio</title>
+<style>
+:root{--bg:#fbfaf7;--ink:#1d2430;--mute:#5f6772;--line:#d9d6cc;--accent:#233a8a;--tint:#e9ecf6;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161f;--ink:#e8eaf0;--mute:#a0a8b6;--line:#2b3242;--accent:#8fa6f2;--tint:#1c2335}}
+:root[data-theme="dark"]{--bg:#12161f;--ink:#e8eaf0;--mute:#a0a8b6;--line:#2b3242;--accent:#8fa6f2;--tint:#1c2335}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 20px 56px}
+h1{font:700 2.4rem/1.1 Georgia,"Times New Roman",serif;margin:0 0 10px;letter-spacing:-.01em}
+.lede{font-size:1.1rem;max-width:56ch;margin:0 0 6px}
+.meta{color:var(--mute);margin:0 0 36px}
+h2{font:700 1.25rem/1.3 Georgia,serif;margin:40px 0 4px;padding-bottom:6px;border-bottom:2px solid var(--accent)}
+.proj{padding:18px 0;border-bottom:1px solid var(--line)}
+.proj h3{font:600 1.1rem/1.3 Georgia,serif;margin:0}
+.proj .kind{color:var(--mute);font-size:.9rem;margin:2px 0 8px}
+.proj p{margin:0 0 6px;max-width:64ch}
+.proj .made{background:var(--tint);padding:8px 12px;border-radius:4px;font-size:.93rem;margin-top:8px}
+ul{padding-left:20px;margin:10px 0}
+li{margin:4px 0}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+footer{margin-top:40px;color:var(--mute);font-size:.9rem}
+@media (max-width:560px){h1{font-size:1.9rem}body{font-size:16px}}
+</style>
+</head>
+<body>
+<main>
+<h1>Shlok Jhaveri</h1>
+<p class="lede">First-year BSc Finance student at ISME, Mumbai. I like working with market data, and I use Claude to speed up analysis, reporting and workflows. I'm looking for a finance internship in Mumbai.</p>
+<p class="meta">shlok.jhaveri.bsc2026@atlasskilltech.university</p>
+
+<h2>Projects</h2>
+
+<div class="proj">
+<h3>Momentum Investing in NIFTY 50 Stocks</h3>
+<div class="kind">Quantitative research project, 2026</div>
+<p>I am studying whether a stock's past 6-month return relates to its next 3-month return. The dataset covers NIFTY 50 stocks and the NIFTY 50 Index (the benchmark) from August 2024 to August 2026, at 3-month intervals.</p>
+<p>So far I have organised the raw price data in Excel, grouped by stock, with a data summary sheet, and written the research proposal in Word. The tests, correlation and simple linear regression, come next.</p>
+<div class="made">Tools: Excel, Word, Claude</div>
+</div>
+
+<div class="proj">
+<h3>Campus Café Sales Analysis</h3>
+<div class="kind">Data and reporting project, 2026</div>
+<p>I started with a messy sales file for June to August with dates in three different formats. I cleaned it, split it into monthly datasets and joined it with item price and cost data.</p>
+<p>From that I built a 5-slide performance report and an Excel what-if estimator. Finally I set up a scheduled workflow that picks up next month's sales file from email and reruns the analysis.</p>
+<div class="made">Tools: Excel, PowerPoint, Claude Cowork, Gmail</div>
+</div>
+
+<div class="proj">
+<h3>Nestwell Residences</h3>
+<div class="kind">Team project, 4 people, 2026</div>
+<p>Nestwell is an invented housing project for first-time buyers. I led the front end: a landing page, unit and price display, and an enquiry route. I tested it with 8 buyer emails, including tricky cases such as no stated budget, a budget below the entry price, and brokers.</p>
+<p>My teammates built the Gmail triage and lead tracker behind it. Replies were drafted for human approval and never sent automatically.</p>
+<div class="made">Tools: Claude, Gmail, Google Drive</div>
+</div>
+
+<div class="proj">
+<h3>Moon Story 3D Scene</h3>
+<div class="kind">Team coding project, 2026</div>
+<p>I built the moon rover model and its animation. It was combined with my teammates' rocket and moon base dome into one scene, using shared size and colour rules.</p>
+</div>
+
+<h2>Beyond the classroom</h2>
+<ul>
+<li>Coordinator, INC (corporate club), ISME</li>
+<li>Member, university cricket team</li>
+</ul>
+
+<h2>How I use Claude</h2>
+<ul>
+<li>Cleaning messy data and building Excel models and reports</li>
+<li>Searching live job listings and checking them against my CV</li>
+<li>Tailoring my CV to each role, then explaining every change myself</li>
+</ul>
+<p>See how I scored real roles against my CV on my <a href="dashboard.html">job dashboard</a>.</p>
+
+<footer>Built with Claude for a university assignment.</footer>
+</main>
+</body>
+</html>
